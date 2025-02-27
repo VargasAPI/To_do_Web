@@ -1,0 +1,53 @@
+.app_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.app_header > form {
+    width: 40%;
+}
+
+.task_input {
+  font-size: 20px;
+  font-weight: 500;
+  background: #f9f9f9;
+  color: #000;
+  border: 1px solid #dfe3e6;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.task_form_button_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.task_status_button {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #999;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.task_submit_button {
+    font-size: 16px;
+    font-weight: 500;
+    background: green;
+    color: #fff;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    height: 40px;
+    padding: 3px 13px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    
+}

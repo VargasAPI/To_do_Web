@@ -1,0 +1,10 @@
+.tag_button {
+    background: #f9f9f9;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor: pointer
+}
